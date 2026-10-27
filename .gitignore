@@ -1,0 +1,23 @@
+# Dependencies and build output
+**/node_modules/
+**/target/
+**/dist/
+**/dist-ssr/
+
+# Local environment files; keep the safe templates
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs, crash reports, and local backups
+**/*.log
+**/hs_err_pid*.log
+**/replay_pid*.log
+**/*.bak
+**/*.backup
+**/*.dump
+**/*.sql.gz
+
+# IDE and local tooling
+**/.idea/
+**/.quarkus/
